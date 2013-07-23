@@ -1,0 +1,15 @@
+---
+layout: default
+title: Nate McGuire - Blog
+---
+
+<div id="home" style="min-height:500px;text-align:left;">
+	<div class="span6" style="margin-top:100px;">
+	  <h1>Blog Posts</h1>
+	  <ul class="posts">
+	    {% for post in site.posts %}
+	      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="/blog{{ post.url }}">{{ post.title }}</a></li>
+	    {% endfor %}
+	  </ul>
+	</div>
+</div>
