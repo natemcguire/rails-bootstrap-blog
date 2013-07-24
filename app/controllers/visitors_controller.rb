@@ -1,6 +1,6 @@
 class VisitorsController < ApplicationController
 
-  def new
+  def index
   end
 
 end
