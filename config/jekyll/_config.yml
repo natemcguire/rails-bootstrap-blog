@@ -1,6 +1,6 @@
 markdown: rdiscount
 permalink: /:title.html
-destination: ../../public/blog
+destination: ../../public/
 auto: true
 exclude:
   - Rakefile

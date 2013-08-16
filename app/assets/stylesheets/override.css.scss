@@ -926,6 +926,7 @@ h6 {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
+  height: 100px;
 }
 .navbar-inverse {
   font-size: 16.996px;
@@ -972,8 +973,8 @@ h6 {
   font-size: 16.002px;
   /* 16px */
 
-  border-bottom: 2px solid #2c3e50;
-  border-left: 2px solid #2c3e50;
+  border-bottom: none;
+  border-left: none;
   color: #ffffff;
   padding: 16px 20px 15px;
 }
@@ -3865,4 +3866,7 @@ body.vjs-full-window {
 .mhl,
 .mal {
   margin-left: 20px;
+}
+li.logo {
+  margin-right: 150px;
 }

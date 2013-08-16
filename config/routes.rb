@@ -1,5 +1,5 @@
 Natemcguire::Application.routes.draw do
-  root :to => 'visitors#index'
+  root :to => 'blog#index'
   get 'blog' => 'blog#index'
 	get 'blog/:title' => 'blog#post'
 end
